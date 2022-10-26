@@ -8,7 +8,7 @@ We have a dataset containing mpg test results for 50 prototype MechaCars. We wan
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 Ground clearance, vehicle weight and vehicle length (as well as the intercept).
 - Is the slope of the linear model considered to be zero? Why or why not?
-The P-value is much smaller than our assumed significance level of 0.05, we can states the is sufficient evidence to reject our null hypothesis, which means that the slope of our linear model is not zero. 
+The P-value is much smaller than our assumed significance level of 0.05, we can state there is sufficient evidence to reject our null hypothesis, which means that the slope of our linear model is not zero. 
 
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 Yes, we have enough significant variables that can predict the MPG of the prototypes. Yet, we can improve this model's performance by adding some more variables of interest. 
@@ -23,6 +23,15 @@ This table shows the PSI column summary statistics of all production lots. The v
 We grouped the summary statistics from each of the three manufacturing lots. Lot number 3 is not meeting the design specification, the variance exceeds 100 PSI. 
 
 ![image](https://user-images.githubusercontent.com/104812189/195949038-28bb2a06-6ad5-43c1-ae5e-0eda576ef886.png)
+
+## T-Tests on Suspension Coils
+We want to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
+
+- One Sample T-Test
+
+We have a P-value= 0.06028, which is larger than our significance level of 0.05. This means there's no sufficient evidence to reject our null hypothesis. We can state that there is no statistical difference between the mean across all manufacturing lots and the population mean.
+
+![image](https://user-images.githubusercontent.com/104812189/198140044-ffaf470e-7e52-4130-af42-fb5f1b4ed33c.png)
 
 
 
